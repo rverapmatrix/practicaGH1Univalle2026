@@ -1,0 +1,21 @@
+$materias = array(
+    array("idMateria" => NULL, "codigo" => "MAT101", "nombre" => "Matemáticas Discretas", "creditos" => 4),
+    array("idMateria" => NULL, "codigo" => "HIS201", "nombre" => "Historia Universal", "creditos" => 3),
+    array("idMateria" => NULL, "codigo" => "PROG102", "nombre" => "Programación básica", "creditos" => 5)
+);
+
+
+-----------------------------------------
+
+$estudiantes = array(
+    array("idEstudiante" => NULL, "nombre" => "Carlos", "apellido" => "Mendoza", "email" => "carlos.mendoza@email.com", "fechaNacimiento" => "2002-04-15", "nota" => 85, "idMateria" => 1),
+    array("idEstudiante" => NULL, "nombre" => "Ana", "apellido" => "Gómez", "email" => "ana.gomez@email.com", "fechaNacimiento" => "2001-08-22", "nota" => 92, "idMateria" => 3),
+    array("idEstudiante" => NULL, "nombre" => "Luis", "apellido" => "Martínez", "email" => "luis.martinez@email.com", "fechaNacimiento" => "2003-01-10", "nota" => 78, "idMateria" => 1),
+    array("idEstudiante" => NULL, "nombre" => "Sofía", "apellido" => "Ríos", "email" => "sofia.rios@email.com", "fechaNacimiento" => "2002-11-30", "nota" => 95, "idMateria" => 2),
+    array("idEstudiante" => NULL, "nombre" => "Diego", "apellido" => "Fernández", "email" => "diego.fernandez@email.com", "fechaNacimiento" => "2001-05-18", "nota" => 65, "idMateria" => 3),
+    array("idEstudiante" => NULL, "nombre" => "Valentina", "apellido" => "Torres", "email" => "valentina.torres@email.com", "fechaNacimiento" => "2002-07-14", "nota" => 88, "idMateria" => 2),
+    array("idEstudiante" => NULL, "nombre" => "Javier", "apellido" => "Ruiz", "email" => "javier.ruiz@email.com", "fechaNacimiento" => "2000-12-05", "nota" => 72, "idMateria" => 1),
+    array("idEstudiante" => NULL, "nombre" => "Camila", "apellido" => "Morales", "email" => "camila.morales@email.com", "fechaNacimiento" => "2003-03-25", "nota" => 91, "idMateria" => 3),
+    array("idEstudiante" => NULL, "nombre" => "Mateo", "apellido" => "Castro", "email" => "mateo.castro@email.com", "fechaNacimiento" => "2002-09-19", "nota" => 80, "idMateria" => 2),
+    array("idEstudiante" => NULL, "nombre" => "Lucía", "apellido" => "Vargas", "email" => "lucia.vargas@email.com", "fechaNacimiento" => "2001-10-08", "nota" => 89, "idMateria" => 1)
+);
